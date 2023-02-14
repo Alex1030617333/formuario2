@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+    <title data-descripcion="formulario">frm</title>
+  </head>
+  <body>
+
+    <div> 
+  <span id=" mensajefechaHora"></span>
+  <br>
+<span  id="hora"></span></div>
+  
+    
+      <div class="container" >
+<form action="">
+    <h4 id="bienvenido" class="bienvenido"></h4>
+    <br>
+        
+        <label for="" >Contraseña</label>
+         <br>
+        <input type="password" id="campo1" value=""  placeholder="Ingrese su contraseña"/>
+        <br>
+        <label for="" id="leibol">Confirmar contraseña</label>
+        <br>
+        <input type="password" id="campo2" value="" onkeyup="habilitar()" placeholder="Valide su contraseña"/>
+        <br>
+        <span id="validartexto"></span>
+<br>
+      <button id="boton" class="boton">Acceder</button>
+    
+      
+    </form>
+</div>
+    <script src="formulario.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: rgb(2, 16, 59)  ;
+    
+}
+form{
+    width: 420px;
+    height: 370px;
+     border:2px solid rgb(17, 39, 200);
+    border-radius: 4px;
+}
+.container{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+
+}
+
+.bienvenido{
+    text-align: center;
+    margin: 20px;
+}
+input{
+    width: 380px;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    
+}
+ label,input{
+    padding: 10px;
+    margin: 6px;
+}
+ 
+button{
+    width: 227px;
+    height: 40px;
+    left: 80px;
+    position: relative;
+}
+button:hover{
+    background: blue;
+    color: white;
+}
+button,input{
+    border-radius: 10px;
+}
+input:hover:focus{
+    border-bottom: 2px solid rgb(5, 195, 233);
+background: transparent;
+
+}
+
+input::placeholder{
+color: white;
+}
+input:hover::placeholder{
+color: rgb(3, 20, 20);
+transition: all 2s;
+
+}
+
+
+#validartexto{
+text-align: center;
+margin-left: 70px;
+color: red 2s;
+}
+span,label{
+    color: yellow;
+}
+span{
+    margin: 20px ;
+    top: 20px;
+    position: relative;
+}
